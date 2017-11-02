@@ -1,0 +1,350 @@
+
+/* GLOBAL */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+
+
+
+/* HEADER */
+header {
+  padding-top: 30px;
+  background: linear-gradient(132deg, #3f3c3b, #ed8e8e, #3f3c3b);
+  background-size: 400% 400%;
+  animation: BackgroundGradient 5s ease infinite;
+  border-bottom: #eeeeee 3px solid;
+  min-width: 70px;
+}
+
+@keyframes BackgroundGradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+header #brandname h1 {
+  font-family: "Lobster";
+  margin:0;
+  color: #ffffff;
+}
+
+header li{
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+  float: left;
+  padding: 0 15px 0 15px;
+
+}
+
+header a{
+  text-decoration: none;
+  color: #eeeeee;
+  text-transform: uppercase;
+  font-family: "Quicksand";
+  font-size: 14px;
+
+}
+
+header a:hover{
+  color: #4E4C4C;
+  font-weight: bold;
+}
+header ul{
+  margin: 0;
+  padding: 0;
+
+}
+
+nav{
+  float: right;
+}
+
+
+/* SHOWCASE */
+#showcase{
+  min-height: 400px;
+
+}
+
+
+#particles-js{
+  height: 400px;
+  background: #3f3c3b;
+  padding: 0;
+
+}
+
+#intro{
+  position: absolute;
+  padding-top: 80px;
+  padding-left: 25%;
+  padding-right: 25%;
+
+}
+ #intro h1{
+  font-family: "Quicksand";
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 45px;
+  color: #ffffff;
+
+
+}
+
+#intro p{
+  font-family: "Quicksand";
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+
+
+}
+
+
+
+
+/* THE GOAL */
+#goal h1{
+  font-family: "Quicksand";
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#goal p{
+  font-family: "Quicksand";
+  font-size: 17px;
+  text-align: center;
+}
+
+/* idea CONCEPT */
+/* #why{
+  width: 60%;
+} */
+
+
+
+.why1{
+  background: url("./images/water.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:120px;
+  width: 90%;
+  margin:auto;
+}
+#main h1{
+  font-family: "Lobster";
+  font-size: 40px;
+  height: 35px;
+
+}
+.why1 h2 {
+  font-family: "Quicksand";
+  text-align: center;
+  padding-top: 30px;
+  font-size: 50px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+
+
+#main p, #main li, #boxes h3{
+  font-family: "Quicksand";
+  width: 90%;
+  margin:auto;
+
+}
+
+#main h4{
+  font-family: "Quicksand";
+}
+
+#main li{
+  padding: 10px;
+  font-size: 17px;
+}
+
+.why2{
+  background: url("./images/fabric.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:120px;
+  width: 90%;
+  margin:auto;
+}
+
+.why2 h2 {
+  font-family: "Quicksand";
+  text-align: center;
+  padding-top: 30px;
+  font-size: 50px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+#boxes{
+  margin-top: 50px;
+  align-content: center;
+}
+
+#boxes .box{ /* for each individual box */
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+
+}
+
+#boxes .box img{
+  width: 200px;
+}
+
+/* FDM */
+.why1{
+  background: url("./images/fabric.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:120px;
+  width: 90%;
+  margin:auto;
+}
+
+.why1 h2 {
+  font-family: "Quicksand";
+  text-align: center;
+  padding-top: 30px;
+  font-size: 50px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.why2{
+  background: url("./images/water.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:120px;
+  width: 90%;
+  margin:auto;
+}
+
+.why2 h2 {
+  font-family: "Quicksand";
+  text-align: center;
+  padding-top: 30px;
+  font-size: 50px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+/* COMPETENCIES */
+#titles h2{
+  font-family: "Quicksand";
+  color: #ffffff;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 50px;
+  text-transform: uppercase;
+
+}
+.c1{
+  background: url("./images/expertise.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:120px;
+  width: 90%;
+  margin:auto;
+}
+
+.c2{
+  background: url("./images/chemical.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:120px;
+  width: 90%;
+  margin:auto;
+}
+
+.c3{
+  background: url("./images/business.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:120px;
+  width: 90%;
+  margin:auto;
+}
+
+.c4{
+  background: url("./images/work.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:120px;
+  width: 90%;
+  margin:auto;
+}
+/* CONTACT US */
+#contact{
+  float:left;
+  background: #fff;
+  opacity: 0.8;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  position: absolute;
+  height: 380px;
+}
+#contact div{
+  font-family: "Quicksand";
+  padding-bottom: 5px;
+
+}
+
+#contact label{
+  font-size: 25px;
+
+}
+
+
+#contact h1{
+  font-family: "Lobster";
+  font-size: 40px;
+  height: 35px;
+
+
+}
+
+#contact input{
+  width: 170px;
+
+}
+
+#contact textarea{
+  width: 190px;
+  height: 45px;
+
+}
+
+#shortPara{
+  float:right;
+}
+
+#designBox{
+  width: 100%;
+  height: 400px;
+  padding: 0;
+}
+
+
+footer{
+  padding: 10px;
+  margin-top: 10px;
+  color: #ffffff;
+  background: linear-gradient(132deg, #3f3c3b, #ed8e8e, #3f3c3b);
+  background-size: 400% 400%;
+  animation: BackgroundGradient 5s ease infinite;
+  text-align: center;
+  opacity: 1;
+  font-family: "Quicksand";
+}
